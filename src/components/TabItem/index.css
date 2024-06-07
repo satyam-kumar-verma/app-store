@@ -1,0 +1,25 @@
+.tab-item-container {
+  width: 25%;
+  list-style-type: none;
+  border-bottom: 2px solid #7b8794;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-tab-style {
+  border-bottom: 2px solid #2563eb;
+}
+
+.button {
+  color: #7b8794;
+  font-size: 25px;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.selected-button-style {
+  color: #2563eb;
+}

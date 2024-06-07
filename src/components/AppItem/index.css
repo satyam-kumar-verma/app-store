@@ -1,0 +1,27 @@
+.app-item {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .app-item {
+    width: 45%;
+  }
+}
+
+.app-img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.app-para {
+  color: #1e293b;
+  font-size: 25px;
+}
